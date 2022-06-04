@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Dark Souls - The Card Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+ <div class="container">
+    <h1 class="page-title">Dark Souls™</h1>
+    <h3 class="page-subtitle">The Card Game</h3>
+
+    <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+    <button type="button" id="btnJogar" onclick="jogar()" disabled="true">Jogar</button>
+    
+    <form id="form">
+      <h2>Escolha o seu atributo</h2>
+
+      <div class="wrapper">
+        
+        <!-- Carta do Jogador -->
+        <div class="flip-card">
+          <figure id="carta-jogador" class="flip-card-inner">
+            <div id="cardPlayer-front" class="flip-card-front">
+            </div>
+             <div id="verso-carta-jogador" class="flip-card-back">
+               <h3></h3>
+             </div>
+          </figure>
+        </div>
+
+
+        <div class="info">
+          <h2>Não deixe seu deck de cartas acabar.
+          <br>Vença seu adversário e pegue todas suas cartas!</h2>
+   
+             <div id="placar">
+             <tr>
+              <td><h2 id="pJogador"></h2></td>
+                      <td>X</td>
+              <td><h2 id="pMaquina"></h2></td>
+             </tr>
+        </div>
+      </div>
+
+
+    <!-- Carta da Máquina -->
+    <div class="flip-card">
+      <figure id="carta-maquina" class="flip-card-inner">
+        <div id="cardCPU-front" class="flip-card-front">
+        </div>
+        <div id="verso-carta-maquina" class="flip-card-back">
+        </div>
+      </figure>
+    </div>
+      </div>
+
+    <div id="resultado"></div>
+
+     </form>
+  </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
