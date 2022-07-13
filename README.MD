@@ -1,4 +1,4 @@
-<img src="https://www.dafont.com/forum/attach/orig/1/0/105453.jpg" alt="img" style="zoom: 75%;" />
+<p align="center"><img src="https://www.dafont.com/forum/attach/orig/1/0/105453.jpg" alt="img" style="zoom: 75%;" /></p>
 
 <h1 align="center">Dark Souls - Card Game<br></h1>
 
